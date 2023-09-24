@@ -3,7 +3,12 @@
 https://github.com/ohmyzsh/ohmyzsh/wiki/Customization
 
 ```bash
+#!/usr/bin/env bash
+
 cd $HOME
+
+ln -s ./dot_files/zsh/zshrc .zshrc
+
 ln -s ./dot_files/custom-oh-my-zsh .custom-oh-my-zsh
 ```
 
