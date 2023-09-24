@@ -2,9 +2,9 @@
 ## oh-my-zsh customization
 https://github.com/ohmyzsh/ohmyzsh/wiki/Customization
 
-```
+```bash
 cd $HOME
-ln -s ./dot_files/home/.custom-oh-my-zsh .custom-oh-my-zsh
+ln -s ./dot_files/custom-oh-my-zsh .custom-oh-my-zsh
 ```
 
 ## VS Code user settings
