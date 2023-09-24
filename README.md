@@ -7,6 +7,14 @@ cd $HOME
 ln -s ./dot_files/custom-oh-my-zsh .custom-oh-my-zsh
 ```
 
+## Cargo config
+https://rsproxy.cn/
+
+```
+cd $HOME
+ln -s ../dot_files/cargo/config ./.cargo/config
+```
+
 ## VS Code user settings
 https://code.visualstudio.com/docs/getstarted/settings
 
