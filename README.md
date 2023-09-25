@@ -28,9 +28,9 @@ https://code.visualstudio.com/docs/getstarted/settings
 
 cd $HOME
 
-if [[ $OSTYPE == 'linux-gnu'* ]]; then
-  ln -s ../../../dot_files/vscode/settings.json .config/Code/User/settings.json
+if [[ "$OSTYPE" == 'linux-gnu'* ]]; then
+  ln -s ../../../dot_files/vscode/settings.json ./.config/Code/User/settings.json
 elif [[ "$OSTYPE" == 'darwin'* ]]; then
-  # ln -s
+  ln -s ../../../../dot_files/vscode/settings.json './Library/Application Support/Code/User/settings.json'
 fi
 ```
