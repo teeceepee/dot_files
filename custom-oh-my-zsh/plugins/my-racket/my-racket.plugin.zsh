@@ -1,2 +1,4 @@
 ## Racket
-export PATH="/Applications/Racket v8.5/bin:$PATH"
+if [[ "$OSTYPE" == 'darwin'* ]]; then
+  export PATH="/Applications/Racket v8.11.1/bin:$PATH"
+fi

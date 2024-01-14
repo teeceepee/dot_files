@@ -78,7 +78,7 @@ plugins=(
   rust
   #my-cuda
   my-nodenv
-  #my-racket
+  my-racket
   my-rust
   my-sdkman
 )
