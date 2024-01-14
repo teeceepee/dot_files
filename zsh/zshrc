@@ -83,6 +83,12 @@ plugins=(
   my-sdkman
 )
 
+# Homebrew's shell completions, must be set before `source $ZSH/oh-my-zsh.sh`
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
